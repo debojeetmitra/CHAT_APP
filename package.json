@@ -9,8 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "mongoose": "^8.10.0"
-  }
+  "description": ""
 }
