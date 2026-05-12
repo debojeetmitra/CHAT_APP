@@ -51,6 +51,23 @@ A full-stack **real-time chat application** built using the MERN stack with mode
 
 ---
 
+## 📸 Screenshots
+
+### 💬 Chat Interface
+<img width="1440" height="900" alt="Screenshot 2026-05-12 at 11 14 59 AM" src="https://github.com/user-attachments/assets/71fe868d-6918-45b3-92ca-97b31a735409" />
+
+---
+
+### 🟢 Profile Page
+<img width="1440" height="900" alt="Screenshot 2026-05-12 at 11 15 52 AM" src="https://github.com/user-attachments/assets/b917f10d-f519-4e89-ace3-66c7b2ac616c" />
+
+---
+
+### 🔐 Login / Signup Page
+<img width="1440" height="900" alt="Screenshot 2026-05-12 at 11 11 33 AM" src="https://github.com/user-attachments/assets/d315cc49-dac5-44d0-81e7-c8a6987a285d" />
+
+---
+
 ## 📂 Project Structure
 
 ```id="chatapp-structure"
