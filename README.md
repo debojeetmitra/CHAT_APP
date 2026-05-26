@@ -1,140 +1,167 @@
 # 💬 Real-Time Chat Application (MERN Stack)
 
-A full-stack **real-time chat application** built using the MERN stack with modern technologies like **Socket.io**, **JWT Authentication**, and **Zustand**.
+A full-stack **real-time chat application** built using the MERN stack with modern technologies like **Socket.io**, **JWT Authentication**, **Zustand**, and now fully **Dockerized** using Docker & Docker Compose 🐳.
 
 🔗 **Live Demo:** https://chat-app-uiqr.onrender.com
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-* 🔐 **Authentication & Authorization**
+## 🔐 Authentication & Authorization
+- Secure login/signup using JWT
 
-  * Secure login/signup using JWT
-* 💬 **Real-Time Messaging**
+## 💬 Real-Time Messaging
+- Instant messaging powered by Socket.io
 
-  * Instant messaging powered by Socket.io
-* 🟢 **Online User Status**
+## 🟢 Online User Status
+- See who is online in real-time
 
-  * See who is online in real-time
-* 🧠 **Global State Management**
+## 🧠 Global State Management
+- Managed efficiently using Zustand
 
-  * Managed efficiently using Zustand
-* ⚙️ **Error Handling**
+## ⚙️ Error Handling
+- Robust error handling on both client & server
 
-  * Robust error handling on both client & server
-* 🎨 **Modern UI**
+## 🎨 Modern UI
+- Built with TailwindCSS + DaisyUI
 
-  * Built with TailwindCSS + DaisyUI
-* 🚀 **Deployment**
+## 🐳 Dockerized Architecture
+- Dockerized frontend & backend services
+- Multi-container setup using Docker Compose
 
-  * Fully deployed on Render
-
----
-
-## 🛠️ Tech Stack
-
-### Frontend:
-
-* React.js
-* Zustand
-* TailwindCSS
-* Daisy UI
-
-### Backend:
-
-* Node.js
-* Express.js
-* MongoDB
-* Socket.io
-* JWT (Authentication)
+## 🚀 Deployment
+- Fully deployed on Render
 
 ---
 
-## 📸 Screenshots
+# 🛠️ Tech Stack
 
-### 💬 Chat Interface
-<img width="1440" height="900" alt="Screenshot 2026-05-12 at 11 14 59 AM" src="https://github.com/user-attachments/assets/71fe868d-6918-45b3-92ca-97b31a735409" />
+## Frontend
+- React.js
+- Zustand
+- TailwindCSS
+- DaisyUI
+
+## Backend
+- Node.js
+- Express.js
+- MongoDB
+- Socket.io
+- JWT Authentication
+
+## DevOps / Deployment
+- Docker
+- Docker Compose
+- Render
 
 ---
 
-### 🟢 Profile Page
-<img width="1440" height="900" alt="Screenshot 2026-05-12 at 11 15 52 AM" src="https://github.com/user-attachments/assets/b917f10d-f519-4e89-ace3-66c7b2ac616c" />
+# 📸 Screenshots
+
+## 💬 Chat Interface
+<img width="1440" height="900" alt="Chat Interface" src="https://github.com/user-attachments/assets/71fe868d-6918-45b3-92ca-97b31a735409" />
 
 ---
 
-### 🔐 Login / Signup Page
-<img width="1440" height="900" alt="Screenshot 2026-05-12 at 11 11 33 AM" src="https://github.com/user-attachments/assets/d315cc49-dac5-44d0-81e7-c8a6987a285d" />
+## 🟢 Profile Page
+<img width="1440" height="900" alt="Profile Page" src="https://github.com/user-attachments/assets/b917f10d-f519-4e89-ace3-66c7b2ac616c" />
 
 ---
 
-## 📂 Project Structure
+## 🔐 Login / Signup Page
+<img width="1440" height="900" alt="Login Page" src="https://github.com/user-attachments/assets/d315cc49-dac5-44d0-81e7-c8a6987a285d" />
 
-```id="chatapp-structure"
-client/     → Frontend (React + Zustand)
-server/     → Backend (Node + Express + MongoDB + Socket.io)
+---
+
+# 📂 Project Structure
+
+```bash
+frontend/    → React Frontend
+backend/     → Node.js + Express Backend
+docker-compose.yml
 ```
 
 ---
 
-## ⚡ Getting Started
+# ⚡ Getting Started
 
-### 1️⃣ Clone the repository
+## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/your-username/CHAT_APP.git
+cd CHAT_APP
 ```
 
-### 2️⃣ Setup Backend
+---
+
+# 🖥️ Run Locally
+
+## Backend Setup
 
 ```bash
-cd server
+cd backend
 npm install
 npm run dev
 ```
 
-### 3️⃣ Setup Frontend
+## Frontend Setup
 
 ```bash
-cd client
+cd frontend
 npm install
 npm run dev
 ```
 
 ---
 
-## 🔑 Environment Variables
+# 🐳 Run with Docker
 
-Create a `.env` file in the `server` folder and add:
+## Build & Start Containers
+
+```bash
+docker compose up --build
+```
+
+## Stop Containers
+
+```bash
+docker compose down
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file inside the `backend` folder:
 
 ```env
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
+MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 ```
 
 ---
 
-## 🎯 Key Learnings
+# 🎯 Key Learnings
 
-* Implemented real-time communication using **WebSockets**
-* Understood **JWT-based authentication flow**
-* Managed global state with **Zustand**
-* Learned **full-stack deployment** on Render
-* Improved debugging and error handling skills
+- Implemented real-time communication using WebSockets
+- Understood JWT-based authentication flow
+- Managed global state with Zustand
+- Learned Docker & Docker Compose
+- Worked with multi-container applications
+- Improved debugging and deployment workflow
+- Understood full-stack deployment on Render
 
 ---
 
-
-
-## 🤝 Contributing
+# 🤝 Contributing
 
 Contributions are welcome! Feel free to fork this repo and improve it.
 
 ---
 
-## 📬 Contact
+# 📬 Contact
 
 If you have any questions or suggestions, feel free to reach out.
 
