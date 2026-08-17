@@ -1,6 +1,8 @@
 # 💬 Real-Time Chat Application (MERN Stack)
 
-A full-stack **real-time chat application** built using the MERN stack with modern technologies like **Socket.io**, **JWT Authentication**, **Zustand**, and now fully **Dockerized** using Docker & Docker Compose 🐳.
+![CI](https://github.com/debojeetmitra/CHAT_APP/actions/workflows/ci.yml/badge.svg)
+
+A full-stack **real-time chat application** built using the MERN stack with modern technologies like **Socket.io**, **JWT Authentication**, **Zustand**, and fully **Dockerized** using Docker & Docker Compose 🐳.
 
 🔗 **Live Demo:** https://chat-app-uiqr.onrender.com
 
@@ -30,6 +32,11 @@ A full-stack **real-time chat application** built using the MERN stack with mode
 - Dockerized frontend & backend services
 - Multi-container setup using Docker Compose
 
+## 🔄 Continuous Integration
+- GitHub Actions workflow for automated CI
+- Runs on every push and pull request to the `main` branch
+- Automatically installs dependencies and validates the Docker build
+
 ## 🚀 Deployment
 - Fully deployed on Render
 
@@ -53,6 +60,8 @@ A full-stack **real-time chat application** built using the MERN stack with mode
 ## DevOps / Deployment
 - Docker
 - Docker Compose
+- GitHub Actions
+- Continuous Integration (CI)
 - Render
 
 ---
@@ -89,7 +98,7 @@ docker-compose.yml
 ## 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/CHAT_APP.git
+git clone https://github.com/debojeetmitra/CHAT_APP.git
 cd CHAT_APP
 ```
 
@@ -152,6 +161,8 @@ JWT_SECRET=your_secret_key
 - Worked with multi-container applications
 - Improved debugging and deployment workflow
 - Understood full-stack deployment on Render
+- Built a CI pipeline using GitHub Actions
+- Automated dependency installation and Docker image validation
 
 ---
 
